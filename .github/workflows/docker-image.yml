@@ -12,8 +12,8 @@ jobs:
     steps:
     
     - uses: actions/checkout@v1
-      with:
-        run: |
-          cd $GITHUB_WORKSPACE
-          docker build -t vanzan2015/remnux-ubuntu-14.04 .
-          docker run vanzan2015/remnux-ubuntu-14.04
+    - name: docker build and run
+      run: |
+        cd $GITHUB_WORKSPACE
+        docker build -t vanzan2015/remnux-ubuntu-14.04 .
+        docker run vanzan2015/remnux-ubuntu-14.04
