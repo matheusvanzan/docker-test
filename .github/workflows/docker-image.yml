@@ -17,3 +17,4 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
         repository: vanzan2015/remnux-ubuntu-14.04
+        tags: latest
