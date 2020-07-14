@@ -18,3 +18,4 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
         repository: vanzan2015/remnux-ubuntu-14.04
         tags: latest
+        run: docker run vanzan2015/remnux-ubuntu-14.04
