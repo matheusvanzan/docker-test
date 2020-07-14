@@ -8,4 +8,4 @@ sudo apt-get update
 # sudo python3 -m pip install --upgrade pip
 # sudo python3 -m pip install virtualenv
 
-# sudo bash get-remnux.sh
+sudo bash get-remnux.sh
